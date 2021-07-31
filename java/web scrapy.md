@@ -1,0 +1,5 @@
+### 豆瓣250
+```shell
+{"_id":"douban_250_pic","startUrl":["https://movie.douban.com/top250?start=[0-225:25]&filter="],"selectors":[{"id":"movie_id","type":"SelectorText","parentSelectors":["_root"],"selector":"em","multiple":true,"regex":"","delay":0},{"id":"movie_pic","type":"SelectorImage","parentSelectors":["_root"],"selector":"li:nth-of-type(n+5) img","multiple":true,"delay":0},{"id":"movie_name_zh","type":"SelectorText","parentSelectors":["_root"],"selector":"li:nth-of-type(n+6) span.title:nth-of-type(1)","multiple":true,"regex":"","delay":0},{"id":"movie_name_other","type":"SelectorText","parentSelectors":["_root"],"selector":".hd span:nth-of-type(n+2)","multiple":true,"regex":"","delay":0},{"id":"cont","type":"SelectorText","parentSelectors":["_root"],"selector":".info p:nth-of-type(1)","multiple":true,"regex":"","delay":0},{"id":"score","type":"SelectorText","parentSelectors":["_root"],"selector":"span.rating_num","multiple":true,"regex":"","delay":0},{"id":"people_in","type":"SelectorText","parentSelectors":["_root"],"selector":".star span:nth-of-type(4)","multiple":true,"regex":"","delay":0}]}
+```
+
